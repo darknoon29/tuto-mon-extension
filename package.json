@@ -1,0 +1,21 @@
+{
+  "name": "mon-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-clean": "npm prune && npm install",
+    "build": "gulp build",
+    "test": "echo 'no test'"
+  },
+  "keywords": [],
+  "author": "DarkNoon",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "loglevel": "^1.6.8"
+  }
+}
